@@ -17,11 +17,10 @@ body {
 
         header {
             background-color: #EAC926;
-            padding: 10px;
-            position: fixed;
+            /* padding: 10px; */
+            position: sticky;
             top:0;
             width: 100%;
-            height: auto;
             z-index: 1;
 
         }
@@ -32,9 +31,9 @@ body {
         }
 
         .banner {
-            margin-top: 150px; /* PREGUNTAR: cómo hago para asignarle al banner, una margen-top de la altura del header?*/
+            /*margin-top: 150px;  PREGUNTAR: cómo hago para asignarle al banner, una margen-top de la altura del header? */
             z-index: -3;
-            position: relative;
+            position: sticky;
         }
 
         .logo {
@@ -77,13 +76,11 @@ body {
         }
 
         .burger-menu {
-            
             font-size: 16;
             color: white;
             background-color: #1259c3;
             border-radius: 3px;
             padding: 9px;
-
         }
 
         .icono_centrar {
@@ -97,7 +94,7 @@ body {
         main {
             text-align: left;
             box-sizing: 100%;
-            margin-top: 150;  /* PREGUNTAR: ¿Cómo hago para asignarle al main, una margen-top de la altura del header+banner?*/
+            /* margin-top: 300px;   PREGUNTAR: ¿Cómo hago para asignarle al main, una margen-top de la altura del header+banner?*/
         }
 
         section {
