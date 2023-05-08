@@ -40,8 +40,12 @@ body {
             width: 50%;
         }
 
+        .barra {
+            border: white;
+        }
+
         .lupa {
-            border: 1px solid #666;
+            /* border: 1px solid #666; */
             padding: 5px;
             border-radius: 3px;
             background-color: white;
@@ -50,9 +54,15 @@ body {
         }
 
         .barra_y_lupa {
-            max-width: 30%;
+            border: 1px solid #666;
+            /* max-width: 30%; */
+            border-radius: 9px;
             align-items: center;
-            font-size: 10px
+            /* font-size: 10px; */
+            display: flex;
+            background-color: white;
+            padding: 3px;
+            font-size: small;
         }
 
         a {
@@ -207,9 +217,13 @@ body {
     
     /*header-media*/
         .logo, .barra_y_lupa, .compra {
-            width: 30%;
+            /* width: 30%; */
             text-align: center;
             font-size: 2.3vw;
+        }
+
+        .barra_y_lupa {
+            padding: 3px;
         }
         
         nav {
@@ -307,6 +321,14 @@ body {
     /*header*/
         .logo, .barra_y_lupa, .compra {
             font-size: 16px;
+        }
+
+        .barra_y_lupa {
+            padding: 5px;
+        }
+
+        .logo {
+            width: 40%;
         }
 
         ul li {
