@@ -110,6 +110,7 @@ body {
         section {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
         }
 
         h2 {
@@ -123,8 +124,8 @@ body {
         }
 
         .producto {
-            margin: 20px;
-            width: 100%;
+            margin: 15px;
+            width: 60%;
             background-color: white;
             position: relative;
             z-index: 0;
@@ -296,7 +297,7 @@ body {
 
         .producto {
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
-            width: 40%;
+            min-width: 30%;
         }
 
         .producto:hover {
@@ -343,7 +344,7 @@ body {
 
      /*main-media*/
         .producto {
-            width: 20%;
+            width: 21%;
         }
 
         /* .precio, .descuento {
