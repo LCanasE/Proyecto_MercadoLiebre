@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const port = process.env.PORT || 3000
 
 const app = express();
 
@@ -7,7 +8,7 @@ const publicPath = path.resolve(__dirname, './public');
 
 app.use(express.static(publicPath));
 
-app.listen(process.env.PORT || 3020, () => console.log('Servidor corriendo ML-3020'));
+app.listen(port, () => console.log('Servidor corriendo ML-' + port)); 
 
 app.get('/', (req, res) => res.sendFile(path.resolve('./views/home.html')))
 

@@ -104,7 +104,7 @@ body {
         main {
             text-align: left;
             box-sizing: 100%;
-            /* margin-top: 300px;   PREGUNTAR: ¿Cómo hago para asignarle al main, una margen-top de la altura del header+banner?*/
+            /* margin-top: 300px*/
         }
 
         section {
